@@ -1,0 +1,15 @@
+#container {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #007525;
+  background-image: url("https://www.transparenttextures.com/patterns/football-no-lines.png");
+}
+
+#logo {
+  color: white;
+  font-size: 80px;
+  text-align: center;
+  background-color: rgba(0,255,0,0.5);
+  padding: 10px;
+}
