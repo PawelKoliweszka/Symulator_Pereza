@@ -1,0 +1,17 @@
+.menuItem {
+  background-color: rgba(13, 114, 13, 0.6);
+  font-size: 30px;
+  text-align: center;
+  float: left;
+  width: 16.666666666vw;
+}
+
+.menuItem:hover {
+  background-color: rgba(13, 114, 13, 0.8);
+  box-shadow: inset 5px 5px 10px black;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
