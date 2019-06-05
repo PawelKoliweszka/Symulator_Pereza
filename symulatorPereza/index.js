@@ -14,6 +14,10 @@ app.get('*', function (req, res) {
   res.sendFile('dist/symulatorPereza/index.html', {root});
 });
 
+app.post('/rejestracja', function(req, res) {
+  console.log(req.body);
+})
+
 app.listen(port, function () {
   console.log('Server running...');
 })

@@ -1,0 +1,12 @@
+<p id="header">Darmowa rejestracja</p>
+<form id="formularz">
+  <p><label>Nick: </label>
+    <input #nick></p>
+  <p><label>Hasło: </label>
+  <input type="password" #password1></p>
+  <p><label>Powtórz hasło: </label>
+    <input type="password" #password2></p>
+  <p><label>Adres E-mail: </label>
+  <input #email></p>
+  <button id="button" (click)="daneToServer(#nick, #password1, #password2, #email)">Zarejestruj</button>
+</form>
