@@ -1,0 +1,8 @@
+<div id="formularz">
+  <p id="header">Darmowa rejestracja</p>
+  <p>Nickname: <input [(ngModel)]="nick"></p>
+  <p>Hasło: <input type="password" [(ngModel)]="password1"></p>
+  <p>Powtórz hasło: <input type="password" [(ngModel)]="password2"></p>
+  <p>Adres E-mail: <input [(ngModel)]="email"></p>
+  <p><button id="button" (click)="daneToServer()" [routerLink]="['/']">Zarejestruj</button></p>
+</div>
